@@ -1,5 +1,5 @@
-import logo from '../../assets/img/logo.svg'
-import './styles.css'
+import logo from '../../assets/img/logo.svg';
+import './styles.css';
 
 function Header() {
     return (
@@ -8,12 +8,12 @@ function Header() {
                 <img src={logo} alt="DSMeta" />
                 <h1>DSMeta</h1>
                 <p>
-                    Desenvolvido por
-                    <a href="https://www.instagram.com/devsuperior.ig">@devsuperior.ig</a>
+                    Desenvolvido por 
+                    <a href="https://www.instagram.com/devsuperior.ig"> @devsuperior.ig</a> / <a href="https://www.instagram.com/hedlasol">@hedlasol</a>
                 </p>
             </div>
         </header>
     )
 }
 
-export default Header
+export default Header;
